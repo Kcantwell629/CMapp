@@ -1,0 +1,113 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	color:#333;
+	background-color:#AA00D4;
+	}
+	
+h1 {
+	margin:0px 0px 15px 0px;
+	padding:0px;
+	font-size:28px;
+	line-height:28px;
+	font-weight:900;
+	color:#ccc;
+	}
+	
+p {
+	font:16px verdana, arial, helvetica, sans-serif;
+	margin:0px 0px 16px 0px;
+	padding:0px;
+	color:#ccc;
+	}
+	
+#Content>p {margin:0px; text-indent:30px;}
+
+a {
+	color:#ede0e0;
+	font-size:11px;
+	text-decoration:None;
+	font-weight:600;
+	font-family:verdana, arial, helvetica, sans-serif;
+	}
+	
+a:link {color:black;}
+
+a:visited {color:#f5f0f0;}
+
+a:hover {background-color:#eee;}
+
+#Header {
+	font-size:24px;
+	margin:30px 0px 10px 0px;
+	padding:24px 0px 24px 24px;
+	/* For IE5/Win's benefit height = [correct height] + [top padding] + [top and bottom border widths] */
+	height:33px; /* 14px + 17px + 2px = 33px */
+	border-style:solid;
+	border-color:black;
+	border-width:1px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
+	line-height:11px;
+	background-color:#eee;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	height:14px; /* the correct height */
+	}
+
+body>#Header {height:100px;}
+
+#Content {
+	margin:0px 100px 50px 10px;
+	padding:10px;
+	}
+
+#Menu {
+	position:absolute;
+	top:55px;
+	right:20px;
+	width:172px;
+	padding:10px;    
+	background-color:#AA00D4;
+	border:1px solid black;
+	line-height:17px;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:150px;
+	}
+
+body>#Menu {width:125px; height: 95px;}
+
+.error {
+	color:#FF0033;
+	font-size:14px;
+	}
+
+.radio {
+    display: inline;
+    padding: 8px;
+    }
+input {
+    font-size: 120%;
+	color: #5a5854;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+textarea {
+    font-size: 120%;
+	color: #5a5854;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: block;
+	margin-bottom: 10px;
+}
